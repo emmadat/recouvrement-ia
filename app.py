@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 
 st.set_page_config(page_title="Dashboard Recouvrement IA", layout="wide")
-
+import streamlit as st
+st.write("✅ L’application fonctionne !")
 # 🔽 Chargement des données
 try:
     df = pd.read_csv("data_mock.csv")
